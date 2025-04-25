@@ -8,6 +8,10 @@ import logo7 from "../assets/Logo (7).png"
 import icon1 from "../assets/Icon (1).png"
 import icon2 from "../assets/Icon (2).png"
 import icon3 from "../assets/Icon (3).png"
+import art from "../assets/Frame 35.png"
+import Icons from "./icons"
+
+
 
 const Body = () => {
     return (
@@ -16,6 +20,8 @@ const Body = () => {
             <Icons />
             <Heading2 />
             <Cards />
+            <Experience />
+
         </div>
     )
 }
@@ -29,21 +35,7 @@ const Heading = () => {
     )
 }
 
-const Icons = () => {
-    return (
-        <marquee behavior="scroll" direction="">
-            <div className="icons">
-                <img src={logo1} alt="" />
-                <img src={logo2} alt="" />
-                <img src={logo3} alt="" />
-                <img src={logo4} alt="" />
-                <img src={logo5} alt="" />
-                <img src={logo6} alt="" />
-                <img src={logo7} alt="" />
-            </div>
-        </marquee>
-    )
-}
+
 
 const Heading2 = () => {
     return (
@@ -92,4 +84,96 @@ const Card3 = () => {
     )
 }
 
-export default Body
+
+const Experience = () => {
+    return (
+        <div className="experience">
+            <div className="image">
+                <img src={art} alt="" />
+            </div>
+            <div className="textExc">
+                <h1>The unseen of spending three <br /> years at Pixelgrade</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed  sit amet justo ipsum. Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed  porta. Nullam mattis tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam  quis massa pulvinar, aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.</p>
+                <button>Learn More</button>
+            </div>
+        </div>
+    )
+}
+
+const Groups = () => {
+    return (
+        <div className="groups">
+            <div className="group-text">
+                <h1>Helping a local <br /> <span>business reinvent itself</span></h1>
+                <p>We reached here with our hardwork and dedication</p>
+            </div>
+            <div className="group-cards">
+                <div className="gorup1">
+                    <GroupCard1 />
+                    <GroupCard2 />
+                </div>
+                <div className="gorup2">
+                    <GroupCard3 />
+                    <GroupCard4 />
+                </div>
+            </div>
+        </div>
+    )
+}
+
+const GroupCard1 = () => {
+    return (
+        <div className="groupCard">
+            <div>
+                <img src={icon4} alt="" />
+            </div>
+            <div>
+                <h1>2,245,341</h1>
+                <p>Members</p>
+            </div>
+        </div>
+    )
+}
+const GroupCard2 = () => {
+    return (
+        <div className="groupCard">
+            <div>
+                <img src={icon5} alt="" />
+            </div>
+            <div>
+                <h1>46,328 </h1>
+                <p>Clubs</p>
+            </div>
+        </div>
+    )
+}
+const GroupCard3 = () => {
+    return (
+
+        <div className="groupCard">
+            <div>
+                <img src={icon6} alt="" />
+            </div>
+            <div>
+                <h1>828,867</h1>
+                <p>Event Bookings</p>
+            </div>
+        </div>
+    )
+}
+const GroupCard4 = () => {
+    return (
+
+        <div className="groupCard">
+            <div>
+                <img src={icon7} alt="" />
+            </div>
+            <div>
+                <h1>1,926,436</h1>
+                <p>Payments</p>
+            </div>
+        </div>
+    )
+}
+
+export default Body 

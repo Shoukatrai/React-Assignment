@@ -2,9 +2,11 @@ body {
     height: 100%;
     background-color: rgba(192, 192, 192, 0.407);
 }
-p{
+
+p {
     opacity: 0.7;
 }
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -85,53 +87,256 @@ p{
     align-items: center;
     margin-top: 100px;
 }
-.text{
+
+.text {
     font-size: 25px;
 }
-.text button{
+
+.text button {
     background-color: #388E3B;
     padding: 15px;
     border: none;
     border-radius: 3px;
     color: whitesmoke;
 }
-.text h1 span{
+
+.text h1 span {
     color: #388E3B;
 }
 
-.icons{
+.icons {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.body-section{
+.body-section {
     background-color: white;
-    padding-left: 50px;
-    padding-right: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    /* width: 100%; */
 }
-.heading{
+
+.heading {
     text-align: center;
     margin: 50px;
     padding-top: 30px;
 }
 
-.cards{
+.cards {
     display: flex;
-    justify-content: space-between ;
+    justify-content: space-between;
     padding-left: 70px;
     padding-right: 70px;
 }
 
-.card{
+.card {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
 
+.experience {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    text-align: justify;
+    gap: 20px;
+}
+
+.textExc button {
+    background-color: #388E3B;
+    padding: 15px;
+    border: none;
+    border-radius: 3px;
+    color: whitesmoke;
+}
+
+.group-text h1 span {
+    color: #388E3B;
+}
+
+.group-text p {
+    color: black;
+}
+
+.groups {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(192, 192, 192, 0.407);
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.group-cards {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+
+}
+
+.design-cmp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 30px;
+    text-align: justify;
+    background-color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 30px;
+}
+
+.design-cmp div button {
+    background-color: #388E3B;
+    padding: 15px;
+    border: none;
+    border-radius: 3px;
+    color: whitesmoke;
+}
+
+.cust-logos {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+#customer {
+    background-color: transparent;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #388E3B;
+    display: inline;
+}
+
+#heading {
+    background-color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.marketCards {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.marketCard {
+    text-align: center;
+    background-color: rgba(192, 192, 192, 0.407);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.marketCard button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-self: center;
+    color: #388E3B;
+    background-color: transparent;
+    border: none;
+    gap: 10px;
+}
+
+.demo {
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.demo button {
+    display: flex;
+    justify-content: space-between;
+    color: whitesmoke;
+    background-color: #388E3B;
+    padding: 20px;
+    gap: 20px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: black;
+    padding: 30px 100px 30px 100px;
+    opacity: 0.9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerSec1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.footerSec1 div p {
+    color: white;
+
+}
+.footerSec2{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    position: relative;
+    top: -40px;
+}
+.footerSec2 div a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    opacity: 0.7;
+}
+.socialIcons{
+    display: flex;
+    gap: 20px;
+}
+.footerSec2 div h1{
+    color: white;
+}
+
+.input img{
+    position: relative;
+    left: 195px;
+    top: -25px;
+}
+.input input{
+    padding: 8px;
+    background-color: rgba(192, 192, 192, 0.407);
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+}
+.input input::placeholder{
+    color: white;
+    opacity: 0.7;
+}
 @media (max-width:900px) {
     .header-links {
         display: none;
