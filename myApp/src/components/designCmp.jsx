@@ -4,7 +4,7 @@ import pana from "../assets/pana.png"
 const Design = ()=>{
     return(
         <div className="design-cmp">
-            <div>
+            <div className="panaImge">
                 <img src= {pana} alt="" />
             </div>
             <div>

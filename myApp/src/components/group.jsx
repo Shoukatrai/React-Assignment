@@ -6,7 +6,7 @@ const Groups = () => {
     return (
         <div className="groups">
             <div className="group-text">
-                <h1>Helping a local <br /> <span>business reinvent itself</span></h1>
+                <h1>Helping a local  <span>business reinvent itself</span></h1>
                 <p>We reached here with our hardwork and dedication</p>
             </div>
             <div className="group-cards">

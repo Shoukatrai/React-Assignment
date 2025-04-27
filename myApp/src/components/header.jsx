@@ -1,8 +1,25 @@
 import logo from "../assets/Logo.png"
+const header = document.getElementById("heaDER")
+const headerLink = document.getElementById("headerLink")
+
+
+const toogle = ()=>{
+    if(header.className  === 'header'){
+        header.className = 'headerOpen'
+    }else{
+        header.className  = 'header'
+    }
+
+    if(headerLink.className  == 'header-links'){
+        headerLink.className = 'header-links-open'
+    }else{
+        headerLink.className  = 'header-links'
+    }
+}
 
 const Header = () => {
     return (
-        <div className='header'>
+        <div className='header' id="heaDER">
             <HeaderLogo />
             <HeaderLinks />
             <AuthBtns />
@@ -23,7 +40,7 @@ const HeaderLogo = () => {
 
 const HeaderLinks = () => {
     return (
-        <ul className="header-links">
+        <ul className="header-links" id = "headerLink">
             <li>Home</li>
             <li>Service</li>
             <li>Feature</li>
@@ -57,7 +74,7 @@ const Btn2 = () => {
 
 const ShowMenu = () => {
     return (
-        <div className="show-menu">
+        <div className="show-menu" onClick={toogle}>
             <div></div>
             <div></div>
             <div></div>

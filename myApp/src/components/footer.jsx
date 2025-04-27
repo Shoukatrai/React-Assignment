@@ -7,6 +7,7 @@ import sendIcon from "../assets/send.png"
 
 const Footer = () => {
     return (
+        <footer>
         <div className="footer">
             <div className="footerSec1">
                 <div>
@@ -59,6 +60,7 @@ const Footer = () => {
                 </div>
             </div>
         </div>
+        </footer>
     )
 }
 

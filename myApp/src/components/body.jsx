@@ -60,8 +60,8 @@ const Card1 = () => {
     return (
         <div className="card">
             <img src={icon1} alt="" />
-            <h1>Membership <br /> Organisations</h1>
-            <p>Our membership management <br /> software provides full automation of <br /> membership renewals and payments</p>
+            <h1>Membership  Organisations</h1>
+            <p>Our membership management software provides full automation of membership renewals and payments</p>
         </div>
     )
 }
@@ -69,8 +69,8 @@ const Card2 = () => {
     return (
         <div className="card">
             <img src={icon2} alt="" />
-            <h1>National <br /> Associations</h1>
-            <p>Our membership management <br /> software provides full automation of <br /> membership renewals and payments</p>
+            <h1>National  Associations</h1>
+            <p>Our membership management software provides full automation of membership renewals and payments</p>
         </div>
     )
 }
@@ -78,8 +78,8 @@ const Card3 = () => {
     return (
         <div className="card">
             <img src={icon3} alt="" />
-            <h1>Clubs And <br /> Groups</h1>
-            <p>Our membership management <br /> software provides full automation of <br /> membership renewals and payments</p>
+            <h1>Clubs And  Groups</h1>
+            <p>Our membership management  software provides full automation of  membership renewals and payments</p>
         </div>
     )
 }
@@ -88,11 +88,11 @@ const Card3 = () => {
 const Experience = () => {
     return (
         <div className="experience">
-            <div className="image">
+            <div className="imageExc">
                 <img src={art} alt="" />
             </div>
             <div className="textExc">
-                <h1>The unseen of spending three <br /> years at Pixelgrade</h1>
+                <h1>The unseen of spending three  years at Pixelgrade</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed  sit amet justo ipsum. Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed  porta. Nullam mattis tristique iaculis. Nullam pulvinar sit amet risus pretium auctor. Etiam  quis massa pulvinar, aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.</p>
                 <button>Learn More</button>
             </div>
@@ -104,7 +104,7 @@ const Groups = () => {
     return (
         <div className="groups">
             <div className="group-text">
-                <h1>Helping a local <br /> <span>business reinvent itself</span></h1>
+                <h1>Helping a local  <span>business reinvent itself</span></h1>
                 <p>We reached here with our hardwork and dedication</p>
             </div>
             <div className="group-cards">
